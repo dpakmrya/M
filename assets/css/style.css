@@ -859,7 +859,7 @@ section {
   align-items: center;
   border-right: 1px solid #ececec;
   border-bottom: 1px solid #ececec;
-  overflow: hidden;
+  overflow: visible;
   background: #fff;
   height: 100px;
 }
@@ -867,7 +867,7 @@ section {
 .clients .client-logo img {
   transition: all 0.3s ease-in-out;
   height: 36px;
-  filter: grayscale(100%);
+  filter: grayscale(50%); 
 }
 
 .clients .client-logo:hover img {
@@ -1887,7 +1887,7 @@ section {
 }
 
 .blog .blog-comments .reply-form .btn-primary:hover {
-  background-color: #1ed33c;
+  background-color: #ff0505;
 }
 
 .blog .blog-pagination {
@@ -1987,7 +1987,7 @@ section {
 }
 
 .blog .sidebar .search-form form button:hover {
-  background: #1ed33c;
+  background: #f50000;
 }
 
 .blog .sidebar .categories ul {
@@ -2139,7 +2139,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #1ed33c;
+  color: #ff0101;
   font-size: 18px;
   line-height: 1;
 }
@@ -2211,7 +2211,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #2ae149;
+  background: #ff0101;
 }
 
 #footer .credits {
@@ -2253,4 +2253,29 @@ section {
 
 #icon-box iconbox-blue{
   background: url("assets/Logo.jpg") top right no-repeat;
+}
+
+.h1tag{
+  text-align: center; 
+}
+
+#Mainid{
+  border-top-style: solid; 
+  padding-top: 25px;
+  border-top-width: 0px;
+  border-left-style: solid;
+  padding-left: 420px;
+  border-left-width: 0px;
+}
+
+#h1tag{
+  padding-left: 420px;
+  border-left-style: solid;
+  padding-bottom: 20px;
+  border-left-width: 0px;
+}
+
+#ISO{
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
